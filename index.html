@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Soumyadip Saha</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Portfolio of a web developer specializing in modern, responsive web design. Projects built with HTML, CSS and JavaScript.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dark-mode.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="light-mode">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Soumyadip Saha</a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <a href="Soumyadip_Saha_Resume.pdf" target="_blank" rel="noopener noreferrer" class="resume-link">Resume</a>
+                <div class="nav-right">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <i data-feather="moon" class="moon-icon"></i>
+                        <i data-feather="sun" class="sun-icon"></i>
+                    </button>
+                    <button class="mobile-menu-btn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section scroll-reveal">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <div class="hero-text">
+                        <p class="subtitle">Hello, my name is</p>
+                        <h1 class="name">Soumyadip Saha</h1>
+                        <h2 class="title">Web Designer & Developer</h2>
+                        <p class="description">
+                            I'm a passionate web designer and developer creating modern, responsive websites and
+                            applications. With
+                            a keen eye for detail and a love for clean code, I transform ideas into digital experiences.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn primary-btn">View My Work</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-background"></div>
+                        <img src="home-img.jpg" alt="Soumyadip Saha">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title fade-in">About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text fade-in">
+                        <p>
+                            I'm a B.Tech student in ECE with a passion for technology. I've developed a solid foundation
+                            in programming, web
+                            development, and database management through projects, and I have also gained technical
+                            expertise in programming
+                            languages like Python and Java.
+                        </p>
+                        <p>
+                            I believe that great design should be both beautiful and functional, solving real problems
+                            while providing a seamless
+                            experience for users. My approach combines technical expertise with creative thinking to
+                            deliver solutions that exceed
+                            expectations.
+                        </p>
+                        <div class="about-details">
+                            <div class="about-item">
+                                <div class="about-icon">
+                                    <i class="fa-solid fa-user-graduate fa-xl"></i>
+                                </div>
+                                <div class="about-info">
+                                    <h3>Education</h3>
+                                    <p>Bachelor's in ECE</p>
+                                </div>
+                            </div>
+
+                            <div class="about-item">
+                                <div class="about-icon">
+                                    <i class="fa-solid fa-chess-knight fa-xl"></i>
+                                </div>
+                                <div class="about-info">
+                                    <h3>Hobbies</h3>
+                                    <p>Chess, Photography</p>
+                                </div>
+                            </div>
+
+                            <div class="about-item">
+                                <div class="about-icon">
+                                    <i class="fa-solid fa-location-dot fa-xl"></i>
+                                </div>
+                                <div class="about-info">
+                                    <h3>Location</h3>
+                                    <p>India</p>
+                                </div>
+                            </div>
+
+                            <div class="about-item">
+                                <div class="about-icon">
+                                    <i class="fa-solid fa-language fa-lg"></i>
+                                </div>
+                                <div class="about-info">
+                                    <h3>Languages</h3>
+                                    <p>English, Hindi, Bengali</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn primary-btn about-cta">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title fade-in">My Skills</h2>
+                    <p class="section-subtitle fade-in">A comprehensive overview of my technical skills.
+                    </p>
+                </div>
+
+                <div class="skills-category-header fade-in">
+                    <span class="code-icon">&lt;/&gt;</span>
+                    <h3>Technical Skills</h3>
+                </div>
+
+                <div class="skills-grid fade-in">
+                    <!-- Row 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon java-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java">
+                        </div>
+                        <span class="skill-name">Java</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon python-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python">
+                        </div>
+                        <span class="skill-name">Python</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon git-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                alt="Git">
+                        </div>
+                        <span class="skill-name">Git</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon github-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                alt="GitHub">
+                        </div>
+                        <span class="skill-name">GitHub</span>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="skill-card">
+                        <div class="skill-icon html-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML5">
+                        </div>
+                        <span class="skill-name">HTML5</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon css-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS3">
+                        </div>
+                        <span class="skill-name">CSS3</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon js-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript">
+                        </div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon mysql-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                alt="MySQL">
+                        </div>
+                        <span class="skill-name">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="skills-category-header fade-in">
+                    <span class="code-icon"><i data-feather="users"></i></span>
+                    <h3>Soft Skills</h3>
+                </div>
+
+                <div class="skills-grid fade-in">
+                    <!-- Soft Skills Row 1 -->
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-people-group fa-2xl"></i>
+                        </div>
+                        <span class="skill-name">Teamwork</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-arrows-rotate fa-2xl"></i>
+                        </div>
+                        <span class="skill-name">Adaptability</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-regular fa-clock fa-2xl"></i>
+                        </div>
+                        <span class="skill-name">Time Managing</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fa-regular fa-comment fa-2xl"></i>
+                        </div>
+                        <span class="skill-name">Communication</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title fade-in">Some Things I've Built</h2>
+                    <p class="section-subtitle fade-in">A curated selection of my recent work showcasing my skills.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="project1.png" alt="Sorting Algorithm Visualizer">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sorting Algorithm Visualizer</h3>
+                            <div class="project-description">
+                                <p>
+                                    This web-based tool demonstrates over five different
+                                    sorting algorithms. It features interactive visualizations that
+                                    display real-time swaps and data movements, helping users
+                                    understand algorithm efficiency and performance.
+                                    Additionally, user controls for speed and array size allow
+                                    experimentation with the impact of input scale on runtime.
+                                </p>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://soumyadip204.github.io/sorting-algorithm-visualizer/"
+                                    class="project-link">
+                                    <i class="fa-solid fa-up-right-from-square"></i> Live
+                                </a>
+                                <a href="https://github.com/soumyadip204/sorting-algorithm-visualizer"
+                                    class="project-link">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="project2.jpg" alt="PSO-Based Solar Cell MPPT">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">PSO-Based Solar Cell MPPT</h3>
+                            <div class="project-description">
+                                <p>
+                                    This projects aims to maximize energy harvest from a solar
+                                    cell by dynamically tracking the optimal operating point
+                                    (MPP) as environmental conditions change. It combines
+                                    physics-based modeling (single-diode) with metaheuristic
+                                    optimization (PSO) to achieve this goal, achieving up to 16%
+                                    higher power extraction than fixed-voltage systems.
+                                </p>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <!--<i class="fa-solid fa-up-right-from-square"></i> Live-->
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="project3.jpg" alt="Environmental Monitoring System with Threshold Alerts">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Environmental Monitoring System</h3>
+                            <div class="project-description">
+                                <p>
+                                    Designed and developed a real-time temperature and humidity monitoring system using
+                                    an ESP8266 microcontroller and DHT11 sensor. Programmed in MicroPython to read
+                                    sensor data, trigger LED alerts upon exceeding predefined thresholds, and hosted a
+                                    wireless web server for remote data access.
+                                </p>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">
+                                    MicroPython</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <!--<i class="fa-solid fa-up-right-from-square"></i> Live-->
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="project4.jpg" alt="Hospital Management System">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Hospital Management System</h3>
+                            <div class="project-description">
+                                <p>
+                                    This Hospital Management System is a Java-based system
+                                    that streamlines hospital operations by managing patient
+                                    and doctor records and handling appointment scheduling
+                                    with built-in availability checks. Utilized JDBC with MySQL
+                                    for database interactions and real-time data handling.
+                                </p>
+                            </div>
+                            <div class="project-tech">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">JDBC</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <!--<i class="fa-solid fa-up-right-from-square"></i> Live-->
+                                </a>
+                                <a href="https://github.com/soumyadip204/hospital-management-system"
+                                    class="project-link">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="other-projects-section fade-in">
+                    <h2 class="other-projects-title">Other Noteworthy Projects</h2>
+
+                    <div class="other-projects-grid">
+                        <!-- Other Project 1 -->
+                        <div class="project-card fade-in">
+                            <div class="project-content">
+                                <h3 class="project-title">PCB Design of Full-Wave Rectifier
+                                </h3>
+                                <div class="project-description">
+                                    <p>
+                                        The PCB design for a Full-Wave Rectifier converts both halves of each cycle of
+                                        an alternating wave (AC signal) into a pulsating DC signal. Ideal for low-power
+                                        applications like battery chargers or power supplies. The design emphasizes
+                                        efficiency, noise reduction, and safety.
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Eagle CAD</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fa-solid fa-up-right-from-square"></i> Link
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Other Project 2 -->
+                        <div class="project-card fade-in">
+                            <div class="project-content">
+                                <h3 class="project-title">Sudoku Solver</h3>
+                                <div class="project-description">
+                                    <p>
+                                        This Sudoku Solver project automatically solves Sudoku
+                                        puzzles using algorithmic techniques. Combined simple
+                                        constraint‐checking with a systematic search. At its core, there is the classic
+                                        backtracking approach.
+                                    </p>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Java</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fa-brands fa-github"></i> Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title fade-in">Get In Touch</h2>
+                </div>
+                <div class="contact-content fade-in">
+                    <div class="contact-text">
+                        <p>
+                            I'm currently open to new opportunities and collaborations.
+                            Whether you have a project in mind, a question,
+                            or just want to say hi, feel free to reach out to me through any of
+                            the channels below.
+                        </p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:sahasoumyadip1802@gmail.com" class="contact-method">
+                            <i class="fa-solid fa-envelope" style="font-size: 24px;"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>sahasoumyadip1802@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/saha204/" target="_blank" rel="noopener noreferrer"
+                            class="contact-method">
+                            <i class="fa-brands fa-linkedin" style="font-size: 25px;"></i>
+                            <div>
+                                <h3>LinkedIn</h3>
+                                <p>linkedin.com/in/saha204</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.facebook.com/soumyadip.saha.01" target="_blank" rel="noopener noreferrer"
+                            class="contact-method">
+                            <i class="fa-brands fa-facebook" style="font-size: 24px;"></i>
+                            <div>
+                                <h3>Facebook</h3>
+                                <p>@soumyadipsaha</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/soumyadip204" target="_blank" rel="noopener noreferrer"
+                            class="contact-method">
+                            <i class="fa-brands fa-square-github" style="font-size: 25px;"></i>
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>github.com/soumyadip204</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Designed & Built with <i class="fa-regular fa-heart"></i></p>
+                <div class="social-links">
+                    <p>&copy; 2025 All Rights Reserved.</p>
+                    <!-- <a href="https://github.com/soumyadip204" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i data-feather="github"></i>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script src="dark-mode.js"></script>
+    <script src="scroll-animations.js"></script>
+
+    <!-- Initialize Feather Icons -->
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
